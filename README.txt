@@ -1,3 +1,9 @@
+Repositório criado para registrar o progresso e os ensinamentos adquiridos no curso:
+
+Solidity Course 2022
+Daulat Hussain
+https://www.youtube.com/watch?v=Z1M8uj2kjfQ&list=PLWUCKsxdKl0oksYr6IG_wRsaSUySQC0ck
+
 REMIX DEFAULT WORKSPACE
 
 Remix default workspace is present when:
