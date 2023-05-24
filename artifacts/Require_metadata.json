@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_input",
+						"type": "uint8"
+					}
+				],
+				"name": "checkInput",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"errorHandling.sol": "Require"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"errorHandling.sol": {
+			"keccak256": "0x853ac60504545bc6917d5ca0086f40081df2bd3247d0b8c133d3a643e1047184",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35623d2b4562b682b5eb3eb469895cd4bf780627fcdc1691217052fe7f59cb58",
+				"dweb:/ipfs/QmTv8NtbuE15Z8JZfWDmHMd5EWaRUQcpJDEGmJ8SVUZJVo"
+			]
+		}
+	},
+	"version": 1
+}

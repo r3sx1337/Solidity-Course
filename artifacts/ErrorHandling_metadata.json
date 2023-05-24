@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_input",
+						"type": "uint8"
+					}
+				],
+				"name": "asserting",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_input",
+						"type": "uint8"
+					}
+				],
+				"name": "checkInput",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_input",
+						"type": "uint8"
+					}
+				],
+				"name": "reverting",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"errorHandling.sol": "ErrorHandling"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"errorHandling.sol": {
+			"keccak256": "0xc652bba8988ff591312aef64f0038841dbc2d1d3ea9fcfa534db5a582dbb3c4b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d220fb9f2b627725fafb78e326d506d6182a3cc270ce59930eb930c17bb1bed0",
+				"dweb:/ipfs/QmdKtV15ACJ8mpVciLo2BzkzqNV4nut7aEMLnjdubDDVcV"
+			]
+		}
+	},
+	"version": 1
+}
