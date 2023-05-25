@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cancel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ship",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toDefault",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_number",
+						"type": "uint8"
+					}
+				],
+				"name": "willFail",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"import.sol": "Imported"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enum.sol": {
+			"keccak256": "0xb19373f469e444729a3692177c24cea173c0bb22c6870a887612cfd5e062ccc7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c57960286d7b739603f1731d75492b0167e6a8f2253f5bfae59f787e0a9051e",
+				"dweb:/ipfs/QmZjT5duuhKEEyCTNYj31cWm2Rct7htZXCLGUsasrNEx8a"
+			]
+		},
+		"import.sol": {
+			"keccak256": "0x788e22f6077117e76f9cc1c6c3945164f9d2f79bdaa822b2a6b337befc92d874",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f418be069ecce71d6857f89b4383d0d1817c8e869ea471675037c5f3267235bb",
+				"dweb:/ipfs/QmSwtb7UKqRZBmp8obvcCp3KnHdfguRS9ueAyBgc231n1S"
+			]
+		}
+	},
+	"version": 1
+}
