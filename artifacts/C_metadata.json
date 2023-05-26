@@ -27,6 +27,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "callB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -46,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"super.sol": "B"
+			"super.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
