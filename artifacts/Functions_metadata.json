@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_num",
+						"type": "uint8"
+					}
+				],
+				"name": "squaredFunc",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"trycatch.sol": "Functions"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"trycatch.sol": {
+			"keccak256": "0xfdef32725ff918e82031523962dac08ea3df90c2e5961207f914e99ff040988b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://653e1f1d53ba6c93272f50639685878074301cb71ee5d1cebc8e19978bc3aba7",
+				"dweb:/ipfs/QmPRJnGFH4FsuAVHEJLFXveUvuYZpGe6Qor8YpZRVx4kwr"
+			]
+		}
+	},
+	"version": 1
+}
